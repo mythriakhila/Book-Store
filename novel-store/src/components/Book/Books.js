@@ -4,7 +4,7 @@ import Book from './Book';
 import './Book.css'
 
 
-const URL = "http://localhost:1800/scripts/"; 
+const URL = "http://localhost:5000/scripts/"; 
 const fetchHandler = async() =>{
  return  await axios.get(URL).then((res) => res.data)
 }
